@@ -1,0 +1,136 @@
+[
+    {
+    "0": {
+      "xmin": 118.6200180054,
+      "ymin": 2.3846435547,
+      "xmax": 1018.9103393555,
+      "ymax": 758.2379760742,
+      "confidence": 0.6004689336,
+      "class": 0,
+      "name": "person"
+    },
+    "_id": "new ObjectId(\"654b8941c73018748a366fd2\")",
+    "filePath": "uploads/6543500b9789e87db8163a90_1699449152531_Camera.jpg",
+    "modelInfo": {
+      "_id": "new ObjectId(\"654c8dd349a768376411b75d\")",
+      "Model_Name": "Resnet",
+      "Model_Link": "https://example.com/Resnet",
+      "Model_Type": "tensorflow",
+      "Model_Version": "classification",
+      "Port_Number": "8082",
+      "CreatedTimestamp": "2023-11-02T12:00:00Z",
+      "UpdatedTimestamp": "2023-11-02T12:00:00Z"
+    },
+    "currentDate": "2023-11-08",
+    "__v": 0
+},
+{
+    "1": {
+      "xmin": 220.5,
+      "ymin": 50.3,
+      "xmax": 720.8,
+      "ymax": 550.6,
+      "confidence": 0.7523,
+      "class": 1,
+      "name": "bicycle"
+    },
+    "_id": "new ObjectId(\"654b8a23c73018748a366fe3\")",
+    "filePath": "uploads/6543501b9789e87db8163b12_1699452152532_Bike.jpg",
+    "modelInfo": {
+      "_id": "new ObjectId(\"6543501b9789e87db8163b12\")",
+      "Model_Name": "Inception",
+      "Model_Link": "https://example.com/Inception",
+      "Model_Type": "tensorflow",
+      "Model_Version": "classification",
+      "Port_Number": "8085",
+      "CreatedTimestamp": "2023-11-04T15:30:00Z",
+      "UpdatedTimestamp": "2023-11-04T15:30:00Z"
+    },
+    "currentDate": "2023-11-08",
+    "__v": 1
+  },
+  {
+    "2": {
+      "xmin": 310.7,
+      "ymin": 100.9,
+      "xmax": 1020.2,
+      "ymax": 680.1,
+      "confidence": 0.824,
+      "class": 2,
+      "name": "car"
+    },
+    "3": {
+      "xmin": 15.4,
+      "ymin": 10.6,
+      "xmax": 200.7,
+      "ymax": 180.3,
+      "confidence": 0.461,
+      "class": 3,
+      "name": "dog"
+    },
+    "_id": "new ObjectId(\"654b8b56c73018748a367054\")",
+    "filePath": "uploads/654c8dd349a768376411b75e_1699455152533_Street.jpg",
+    "modelInfo": {
+      "_id": "new ObjectId(\"654c8dd349a768376411b75e\")",
+      "Model_Name": "YOLO",
+      "Model_Link": "https://example.com/YOLO",
+      "Model_Type": "darknet",
+      "Model_Version": "segmentation",
+      "Port_Number": "8090",
+      "CreatedTimestamp": "2023-11-05T10:20:00Z",
+      "UpdatedTimestamp": "2023-11-05T10:25:00Z"
+    },
+    "currentDate": "2023-11-08",
+    "__v": 2
+  },
+  {
+    "2": {
+      "xmin": 316.7,
+      "ymin": 103.9,
+      "xmax": 1029.2,
+      "ymax": 610.1,
+      "confidence": 0.524,
+      "class": 1,
+      "name": "plane"
+    },
+    "_id": "new ObjectId(\"654b8b56c73018748a367054\")",
+    "filePath": "uploads/654c8dd349a768376411b75e_1699455152533_Street.jpg",
+    "modelInfo": {
+      "_id": "new ObjectId(\"654c8dd349a768376411b75e\")",
+      "Model_Name": "YOLO",
+      "Model_Link": "https://example.com/YOLO",
+      "Model_Type": "darknet",
+      "Model_Version": "segmentation",
+      "Port_Number": "8090",
+      "CreatedTimestamp": "2023-11-05T10:22:00Z",
+      "UpdatedTimestamp": "2023-11-05T10:25:00Z"
+    },
+    "currentDate": "2023-11-08",
+    "__v": 2
+  },
+  {
+    "4": {
+      "xmin": 55.2,
+      "ymin": 45.7,
+      "xmax": 400.8,
+      "ymax": 300.5,
+      "confidence": 0.912,
+      "class": 4,
+      "name": "cat"
+    },
+    "_id": "new ObjectId(\"654b8c89c73018748a3670b6\")",
+    "filePath": "uploads/6543503d9789e87db8163d56_1699458152534_Pet.jpg",
+    "modelInfo": {
+      "_id": "new ObjectId(\"6543503d9789e87db8163d56\")",
+      "Model_Name": "EfficientDet",
+      "Model_Link": "https://example.com/EfficientDet",
+      "Model_Type": "tensorflow",
+      "Model_Version": "segmentation",
+      "Port_Number": "8088",
+      "CreatedTimestamp": "2023-11-06T18:45:00Z",
+      "UpdatedTimestamp": "2023-11-06T18:50:00Z"
+    },
+    "currentDate": "2023-11-08",
+    "__v": 3
+  }
+]
